@@ -19,7 +19,7 @@ if (e(i) > 50);
 end
 end
 
-tamanio = size (e);
+tamanio = size (e)
 ite = 1:1:tamanio (2);
 
 figure ('DefaultAxesFontsize', 14)
