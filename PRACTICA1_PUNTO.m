@@ -1,4 +1,4 @@
-init_value = 2
+init_value = 2;
 i= 1;
 e(i) =10;
 
@@ -19,7 +19,7 @@ if (e(i) > 50);
 end
 end
 
-tamanio = size (e)
+tamanio = size (e);
 ite = 1:1:tamanio (2);
 
 figure ('DefaultAxesFontsize', 14)
@@ -29,5 +29,5 @@ grid on
 hold on
 plot(ite,x,'color', [0 0 1], 'LineWidth', 2);
 xlabel('iterations')
-%ylabel('error')
+ylabel('error')
 legend('error','x')
